@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body {
+    background: #040c13;
+}
+/*************borde********************/
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: rgba(155, 152, 142, 0.397);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+/**color de letras del logo*/
+.logo{
+    font-size: 25px;
+    color: azure;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a {
+    font-size: 18px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+.navbar a:hover{
+    color: rgba(0, 0, 255, 0.164);
+}
+/*********      login               *************/
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-horizontal >li >a{
+    display: block;
+    padding: 15px 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.menu-horizontal >li:hover{
+    background-color: rgba(35, 36, 71, 0.315);
+}
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0,0,0,05);
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover{
+    background-color: rgba(71, 69, 69, 0.164);
+}
+.menu-vertical li a{
+    display: block;
+    color: aliceblue;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+/******0000000000000000000000000000000000000000000000*************************/
+main{
+    background-color: rgba(71, 69, 69, 0.164);
+    width: 100%; main-height:400px;
+}
+iframe{
+    background-color: #c7c7c700;
+    position: center;
+    width: 90%;height: 600px;
+    
+}
+/******************/

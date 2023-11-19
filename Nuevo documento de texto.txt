@@ -1,0 +1,3 @@
+if(entrar){
+parrafoinnerHTML=warnings
+}
